@@ -17,14 +17,14 @@ addGuestButton.addEventListener("click", function(){
     updateGuestCount()
 })
 
-/*document.addEventListener("keydown", function(e){
+addGuestButton.addEventListener("keydown", function(e){
     const guest = guestInput.value;
     if (guest !== "" && e.key === "Enter") {
         addToList(guest)
     }
     clearInput()
     updateGuestCount()
-})*/
+})
 
 const clearInput = function() {
     guestInput.value = ""
